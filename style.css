@@ -17,12 +17,13 @@ body {
 
 .cabecera {
     display: flex;
-    background-image: url(fondo/header\ tienda.jpg);
+    background-color: aqua;
     background-size: cover;
     height: 100vh;
     width: 100%;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .parrafo6 {
@@ -41,7 +42,7 @@ body {
     font-size: 25px;
 }
 .column4 {
-    width: 33.33%;
+    width: 44,4%;
     float:left;
     padding: 3%;          
 }
